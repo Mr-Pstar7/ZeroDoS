@@ -54,8 +54,7 @@ Input Information:
   max_delay     : [Optional] The maximum delay between each character (default:10ms)
   delay_keep_alive : [Optional] The delay between sending Keep-Alive headers (default:1 second)
   delay_print_details : [Optional] The delay for printing attack details (default:10 seconds)
-
-
+```
 
 ## Disclaimer
 
