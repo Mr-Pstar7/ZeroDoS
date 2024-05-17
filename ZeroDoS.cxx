@@ -455,8 +455,8 @@ void ZeroSlowloris::startAttack()
 
 void printHelp()
 {
-    std::cout << "Usage  : ./zerodos target port max_socks threads [options]\n
-                  Example: ./zerodos www example.com 80 1000 15\n"
+    std::cout << "Usage  : ./zerodos target port max_socks threads [options]\n"
+              << "Example: ./zerodos www example.com 80 1000 15\n"
               << " \n"
               << "Options:\n"
               << "  -h, --help            Show help message and exit\n"
