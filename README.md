@@ -6,11 +6,20 @@ ZeroDoS is a powerful Denial-of-Service (DoS) tool written in C++. It introduces
 
 ## Installation
 ```bash
+Linux
 sudo apt install gcc g++ -y
 git clone https://github.com/Mr-Pstar7/ZeroDos
+cd ZeroDos
 g++ ZeroDoS.cxx -o zerodos
 ./zerodos www.example.com 80 1000 200
 
+Termux:
+pkg install gcc g++ -y
+git clone https://github.com/Mr-Pstar7/ZeroDos
+cd ZeroDos
+g++ ZeroDoS.cxx -o zerodos
+./zerodos www.example.com 80 1000 200
+```
 ## Features
 * **Multithreading:** ZeroDoS utilizes multiple threads to establish connections, significantly improving the speed and efficiency of the attack.
 * **Customization:** With this tools, you have control over various parameters to tailor the attack according to your needs:
@@ -31,7 +40,7 @@ To use ZeroDoS, follow the instructions below:
 
 ```bash
 Usage: ./zerodos target port max_socks threads
-       Example : ./zerodos www.example.com 80 1000 15
+Example : ./zerodos www.example.com 80 1000 15
 
 Options:
   -h, --help            Show help message and exit
@@ -45,7 +54,7 @@ Input Information:
   max_delay     : [Optional] The maximum delay between each character (default:10ms)
   delay_keep_alive : [Optional] The delay between sending Keep-Alive headers (default:1 second)
   delay_print_details : [Optional] The delay for printing attack details (default:10 seconds)
-```
+
 
 
 ## Disclaimer
